@@ -183,16 +183,22 @@ Commander sur WhatsApp
 <a href="https://instagram.com/tonprofil">Instagram</a>
     <hr>
     <h2>formlaire de commande</h2>
-    <form actio="https://formspree.io/f/xxxxabcd" method="POST">
-        <label>nom :</label><br>
-        <input type="text"><br><br>
-         <label>numéro :</label><br>
-        <input type="tel"><br><br>
-         <label>telephone choisi :</label><br>
-        <input type="text"><br><br>
-         <label>message :</label><br>
-        <textarea></textarea><br><br>
-        <button type="submit"> Envoyer la commande </button>
-        </form>
-        </body>
-      </html>
+   <form action="https://formspree.io/f/xxxxabcd" method="POST">
+
+<label>Nom :</label><br>
+<input type="text" name="nom" required><br><br>
+
+<label>Numéro :</label><br>
+<input type="tel" name="numero" required><br><br>
+
+<label>Téléphone choisi :</label><br>
+<input type="text" name="telephone"><br><br>
+
+<label>Message :</label><br>
+<textarea name="message"></textarea><br><br>
+
+<button type="submit">
+Envoyer la commande
+</button>
+
+</form>
