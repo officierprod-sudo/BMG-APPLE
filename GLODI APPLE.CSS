@@ -75,3 +75,19 @@ h1 {
              button:hover { 
                 background: #6610f2;
                  }
+        a {
+  display: inline-block;
+  background: #25D366;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+a:hover {
+  background: #1da851;
+  transform: scale(1.05);
+}
+
